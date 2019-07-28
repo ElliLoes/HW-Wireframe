@@ -3,18 +3,14 @@ body {
     width: 960px;
     font-size: 18px;
     background: #777;
+    color: #777;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 div {
     color: #ebebeb;
     background: #777;
-}
-
-#wireframe {
-    width: 960px;
-    float: inherit;
-    align: center;
-    margin-left: 200px;
 }
 
 header {
@@ -33,7 +29,7 @@ nav {
     color: #777;
 }
 
-#aside {
+aside {
     margin-bottom: 10px;
     background: #ebebeb;
     text-align: center;
@@ -44,7 +40,7 @@ nav {
     padding-top: 30px;
 }
 
-#section {
+section {
     margin-bottom: 10px;
     background: #ebebeb;
     text-align: center;
@@ -71,13 +67,13 @@ nav {
 #heading {
     color: #777;
     background: #ebebeb;
-    font-weight: bold;
     position: absolute;
     top: 110px;
     text-align: center;
     padding: 10px;
     width: 85%;
-    right: 35px;
+    right: 30px;
+    font-weight: bold;
 }
 
 p {
@@ -88,7 +84,7 @@ p {
     padding: 10px;
     width: 85%;
     top: 140px;
-    right: 35px;
+    right: 30px;
 }
 
 footer {
